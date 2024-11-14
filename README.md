@@ -3,7 +3,7 @@
 
 ## Computer Infrastructure
 
-![Programming](ImgProgramming.jpeg)
+![Programming](images/img_programming.jpeg)
 
 **by: Rodrigo De Martino Ucedo**
 ************
