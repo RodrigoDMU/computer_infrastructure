@@ -18,7 +18,7 @@ This repository contains my assessment submission for the module of Computer Inf
 
 **Task description:** Using the command line, create a directory (that is, a folder) named `data` at the root of your repository. Inside `data`, create two subdirectories: `timestamps` and `weather`.
 
-**Summary:** To complete Task 1, I've created the main [`data`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data) directory and I used the `mkdir` command. I also used the `mkdir -p` command to create a data directory with two subdirectories, [`timestamps`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data/timestamps) and [`weather`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data/weather). The `-p` option allowed me to create the necessary directory structure in a single command, ensuring that all the required directories were in place for the next tasks.
+**Summary:** To complete Task 1, I've created the main [`data`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data) directory and I used the `mkdir` command. I also used the `mkdir -p` command to create a data directory with two subdirectories, [`timestamps`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data/timestamps) and [`weather`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data/weather).
 
 **- Task 2: Timestamps:**
 
@@ -36,19 +36,19 @@ This repository contains my assessment submission for the module of Computer Inf
 
 **Task description:** Use the `touch` command to create an empty file with a name in the `YYYYmmdd_HHMMSS.txt` format. You can achieve this by embedding your date command in backticks `` ` `` into the touch command. You should no longer use redirection (`>>`) in this step.
 
-**Summary:**
+**Summary:** To complete Task 4, I used the touch command in combination with the `date` command wrapped in backticks (`` ` ``) to create an file with a timestamped name in the [`YYYYmmdd_HHMMSS.txt`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/data/timestamps/20241026_132342.txt) format. The `touch` command ensured that the file was created, and the date command dynamically generated the filename based on the current date and time. Finally, I used the `ls` command to verify that the file was created successfully.
 
 **- Task 5: Download Today's Weather Data:**
 
 **Task description:** Change to the `data/weather` directory. Download the latest weather data for the Athenry weather station from Met Eireann using `wget`. Use the `-O <filename>` option to save the file as `weather.json`. The data can be found at this URL: `https://prodapi.metweb.ie/observations/athenry/today`.
 
-**Summary:**
+**Summary:** To complete Task 5, I navigated to the [`data/weather`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/data/weather) directory and used the `wget` command to download the latest weather data for the Athenry weather station from the provided [Met Eireann URL](https://prodapi.metweb.ie/observations/athenry/today). I used the `-O` option with wget to save the file as [`weather.json`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/data/weather/weather.json). Finally, I verified that the file was successfully downloaded by listing the directory contents using the `ls` command.
 
 **- Task 6: Timestamp the Data:**
 
 **Task description:** Modify the command from Task 5 to save the downloaded file with a timestamped name in the format `YYYYmmdd_HHMMSS.json`.
 
-**Summary:**
+**Summary:** To complete Task 6, I modified the `wget` command from Task 5 by embedding the `date` command within it to generate a timestamped filename. This ensures that the downloaded weather data is saved with a unique filename based on the current date and time in the [`YYYYmmdd_HHMMSS.json`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/data/weather/20241028_114642.json) format. Finally, I verified the file creation using the ls command to ensure that the timestamped filename was applied correctly.
 
 **- Task 7: Write the Script:**
 
