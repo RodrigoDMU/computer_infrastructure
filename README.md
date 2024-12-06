@@ -12,7 +12,7 @@
 
 This repository contains my assessment submission for the module of Computer Infrastructure.
 
-## Getting Started
+## Tasks
 
 **- Task 1: Create Directory Structure:**
 
@@ -54,5 +54,27 @@ This repository contains my assessment submission for the module of Computer Inf
 
 **Task description:** Write a bash script called `weather.sh` in the root of your repository. This script should automate the process from Task 6, saving the weather data to the `data/weather` directory. Make the script executable and test it by running it.
 
+**Summary:** To complete Task 7, I wrote a bash script called [`weather.sh`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/weather.sh) that automates the process of downloading the latest weather data from Met Eireann and saves it with a timestamped filename. I made the script executable using `chmod +x` and tested it by running the script with `./weather.sh`. Finally, I verified that the weather data was correctly saved in the [`data/weather`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/data/weather/20241108_110531.json) directory with a timestamped filename using the `ls` command. 
+
+**- Task 8: Notebook:**
+
+**Task description:** Create a notebook called `weather.ipynb` at the root of your repository. In this notebook, write a brief report explaining how you completed Tasks 1 to 7. Provide short descriptions of the commands used in each task and explain their role in completing the tasks.
+
+**Summary:** To complete Task 8, I used the `touch` command to create a notebook file named [`weather.ipynb`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/weather.ipynb) at the root of the repository. After executing the `touch weather.ipynb` command, I verified the file's existence with the `ls` command.
+
+**- Task 9: Pandas:**
+
+**Task description:** In your `weather.ipynb` notebook, use the `pandas` function `read_json()` to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided [data.gov.ie](https://data.gov.ie/dataset/todays-weather-athenry) to write a short explanation of what the data set contains.
+
 **Summary:**
 
+## Project
+
+
+
+
+
+
+
+*******
+## End
