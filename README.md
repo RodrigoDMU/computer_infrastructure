@@ -28,7 +28,7 @@ This repository contains my assessment submission for the module of Computer Inf
 
 **- Task 3: Formatting Timestamps:**
 
-**Task description:** Run the `date` command again, but this time format the output using `YYYYmmdd_HHMMSS` (e.g., `20261114_130003` for 1:00:03 PM on November 14, 2026). Refer to the date man page (using `man date`) for more formatting options. (Press `q` to exit the man page). Append the formatted output to a file named `formatted.txt`.
+**Task description:** Run the `date` command again, but this time format the output using `YYYYmmdd_HHMMSS` (e.g., `20241126_130004` for 1:00:04 PM on November 26, 2024). Refer to the date man page (using `man date`) for more formatting options. (Press `q` to exit the man page). Append the formatted output to a file named [`formatted.txt`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/data/timestamps/formatted.txt).
 
 **Summary:** To complete Task 3, I used the date command with a custom format string to produce the current date and time in the YYYYmmdd_HHMMSS format. I appended the formatted output to a file named formatted.txt using the >> operator and verified the results by viewing the file with the more command.
 
@@ -66,7 +66,7 @@ This repository contains my assessment submission for the module of Computer Inf
 
 **Task description:** In your `weather.ipynb` notebook, use the `pandas` function `read_json()` to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided [data.gov.ie](https://data.gov.ie/dataset/todays-weather-athenry) to write a short explanation of what the data set contains.
 
-**Summary:**
+**Summary:** By using `pandas.read_json()` and analyzing the structure of the data, I was able to quickly load and summarize the weather data. The dataset provides valuable insights into daily weather conditions, which can be used for various scientific and practical applications.
 
 ## Project
 
