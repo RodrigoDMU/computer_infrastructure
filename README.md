@@ -8,9 +8,9 @@
 **by: Rodrigo De Martino Ucedo**
 ************
 
-# My Assessment Repository
+# My Assessment Repository - Getting Started
 
-This repository contains my assessment submission for the module of Computer Infrastructure.
+This repository contains my assessment submission for the module of Computer Infrastructure, Tasks and Project.
 
 ## Tasks
 
@@ -70,11 +70,23 @@ This repository contains my assessment submission for the module of Computer Inf
 
 ## Project
 
+In this project, I automated my `weather.sh` script to run daily and push the new data to my repository. The following steps created the necessary GitHub Actions workflow.
 
+1. **Create a GitHub Actions Workflow:** In my repository, I created a folder called `.github/workflows/`. Inside this folder, I created a file called `weather-data.yml`. This file defined the GitHub Actions workflow.
 
+2. **Run Daily at 10am:** Used the `schedule` event with `cron` to set the script to run once a day at 10am. Included also the `workflow_dispatch` event so I could test the workflow.
 
+3. **Use a Linux Virtual Machine:** In the workflow file, specified that a Ubuntu virtual machine could be used to run the action.
 
+4. **Clone the Repository:** I had the the workflow cloned into my repository.
 
+5. **Execute the `weather.sh` Script:** I added a step that ran my `weather.sh` script.
+
+6. **Commit and Push Changes Back to the Repository:** I configured the workflow to commit the new weather data and push those changes back to my repository.
+
+7. **Test the Workflow:** Commited and pushed the workflow to my repository. Checked the logs in GitHub to ensure that the `weather.sh` script ran correctly, that new data was being committed.
+
+**Conclusion:** The workflow was successfully set up to run the `weather.sh` script daily at 10am UTC and push any new weather data to the repository. I tested the workflow by pushing the changes and observing the logs in GitHub to ensure that the script executed correctly and the new data was committed and pushed back to my repository. The process is now fully automated, and I can rely on GitHub Actions to update the weather data every day.
 
 *******
 ## End
