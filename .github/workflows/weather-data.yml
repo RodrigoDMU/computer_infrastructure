@@ -28,16 +28,6 @@ jobs:
     - name: Set up bash and wget
       run: sudo apt-get update && sudo apt-get install -y wget
 
-    # Skip if current date is past 31st December 2024
-    - name: Check date to stop after Dec 31, 2024
-      run: |
-        current_date=$(date +'%Y-%m-%d')
-        end_date="2024-12-31"
-        if [[ "$current_date" > "$end_date" ]]; then
-          echo "The current date ($current_date) is past December 31, 2024. Exiting workflow."
-          exit 0
-        fi
-
     # Run the weather script
     - name: Run weather script
       run: bash weather.sh  # Corrected to run the script with bash
