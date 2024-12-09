@@ -1,16 +1,19 @@
-# Higher Diploma in Science in Computing - Data Analytics
+# Higher Diploma in Science in Data Analytics
 ******
 
 ## Computer Infrastructure
 
 ![Programming](images/img_programming.jpeg)
 
-**by: Rodrigo De Martino Ucedo**
 ************
 
-# My Assessment Repository - Getting Started
+## My Assessment Repository
 
-This repository contains my assessment submission for the module of Computer Infrastructure, Tasks and Project.
+This repository was created as part of the [Computer Infrastructure](https://www.gmit.ie/principles-of-data-analytics) assessment module for the course in the [Higher Diploma in Science in Data Analytics](https://www.atu.ie/courses/higher-diploma-in-science-data-analytics?_gl=1%2A1bcdos0%2A_ga%2AMTE3OTU2MzQ5LjE2OTY2MDYwMzE.%2A_ga_5R02GBYV8V%2AMTcxNDMzOTE2Ni4xMS4xLjE3MTQzMzkyMDAuMC4wLjA.) at [ATU](https://www.atu.ie/). This README has been written with [Github's Documentation On READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind. You can find more about [writing in Mark Down in GitHub's documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+## Getting Started
+
+This repository contains my assessment submissions for the module, showcasing the skills I have developed throughout the course in data analysis, as well as my tasks and project.
 
 ## Tasks
 
@@ -105,6 +108,11 @@ In this project, I automated my [`weather.sh`](https://github.com/RodrigoDMU/com
 7. **Test the Workflow:** Commited and pushed the workflow to my repository. Checked the logs in GitHub to ensure that the `weather.sh` script ran correctly, that new data was being committed.
 
 **Conclusion:** The workflow was successfully set up to run the `weather.sh` script daily at 10am UTC and push any new weather data to the repository. I tested the workflow by pushing the changes and observing the logs in GitHub to ensure that the script executed correctly and the new data was committed and pushed back to my repository. The process is now fully automated, and I can rely on GitHub Actions to update the weather data every day.
+
+## Author
+
+**Rodrigo De Martino Ucedo:**
+ I am currently studying Higher Diploma in Computing in Data Analysis at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on [LinkedIn](https://www.linkedin.com/in/rdmdemartino/).
 
 *******
 ## End
