@@ -2,7 +2,7 @@ name: Run Daily Weather Data
 
 on:
   schedule:
-    # Run at 10:00 AM UTC every day
+    # Run at 10:00 AM UTC
     - cron: '0 10 * * *'
   workflow_dispatch:  # Allows manual triggering of the workflow
 
@@ -18,7 +18,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # Set up Python (optional, but you might need this for other tasks in the future)
+    # Set up Python 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
