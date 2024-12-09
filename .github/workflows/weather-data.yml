@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 permissions:
-    contents: write # Grant write permissions to push changes
+  contents: write # Grant write permissions to push changes
 
 jobs:
   run-weather:
@@ -18,7 +18,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # Set up Python
+    # Set up Python (optional, but you might need this for other tasks in the future)
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
