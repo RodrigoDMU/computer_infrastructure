@@ -49,12 +49,20 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        
-        # Add the new weather data
+    
+        # Fetch the latest changes from the remote main branch
+        git fetch origin main
+
+        # Check if there are changes in the weather data files
+        if git diff --exit-code data/weather/*.json; then
+          echo "No changes detected in the weather data."
+          exit 0  # Exit the workflow if no changes
+        fi
+
+        # Add and commit the new weather data
         git add data/weather/*.json
-        
-        # Commit the changes (only if there are changes)
-        git commit -m "Update weather data for $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-        
-        # Push the changes back to the repository
-        git push origin main
+        git commit -m "Update weather data for $(date +'%Y-%m-%d %H:%M:%S')"
+
+        # Merge changes from remote main branch and push
+        git pull origin main --rebase # Rebase instead of merge to avoid merge commits
+        git push origin main  # Push the changes back to the repository
