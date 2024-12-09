@@ -112,7 +112,8 @@ In this project, I automated my [`weather.sh`](https://github.com/RodrigoDMU/com
 ## Author
 
 **Rodrigo De Martino Ucedo:**
- I am currently studying Higher Diploma in Computing in Data Analysis at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on [LinkedIn](https://www.linkedin.com/in/rdmdemartino/).
+ I am currently studying Higher Diploma in Science in Data Analysis at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on [LinkedIn](https://www.linkedin.com/in/rdmdemartino/).
 
 *******
 ## End
+last commit on 09/12/2024
