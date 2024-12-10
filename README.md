@@ -104,7 +104,7 @@ In this project, I automated my [`weather.sh`](https://github.com/RodrigoDMU/com
 
 1. **Create a GitHub Actions Workflow:** In my repository, I created a folder called [`.github/workflows/`](https://github.com/RodrigoDMU/computer_infrastructure/tree/main/.github/workflows). Inside this folder, I created a file called [`weather-data.yml`](https://github.com/RodrigoDMU/computer_infrastructure/blob/main/.github/workflows/weather-data.yml). This file defined the GitHub Actions workflow.
 
-2. **Run Daily at 10am:** Used the `schedule` event with `cron` to set the script to run once a day at 10am. Included also the `workflow_dispatch` event so I could test the workflow.
+2. **Run Daily at 10am (10:38am):** Used the `schedule` event with `cron` to set the script to run once a day at 10am. Included also the `workflow_dispatch` event so I could test the workflow. *(I adjusted the time to prevent being blocked)*
 
 3. **Use a Linux Virtual Machine:** In the workflow file, specified that a Ubuntu virtual machine could be used to run the action.
 
