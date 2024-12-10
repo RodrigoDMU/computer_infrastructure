@@ -127,4 +127,4 @@ In this project, I automated my [`weather.sh`](https://github.com/RodrigoDMU/com
 
 *******
 ## End
-last commit on 09/12/2024
+last commit on 10/12/2024
